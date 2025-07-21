@@ -20,7 +20,8 @@ Over time, we will add more boards. This repository will be organized by the dev
 Assembly instructions can be found [here](/TestDrive/Docs/Assembling.md)
 
 ### Seeed Studio XAIO RP2040
-Boards based on the [Seed Studio  XAIO RP2040 Development board](https://wiki.seeedstudio.com/XIAO-RP2040/) can be found in the [XaioRP2040]() folder.
+![Seeed Studio XAIO RP2040 Boards Overview](/TestDrive/Docs/Images/XaioRP2040-all.jpg)
+Boards based on the [Seed Studio  XAIO RP2040 Development board](https://wiki.seeedstudio.com/XIAO-RP2040/) can be found in the [XaioRP2040](/TestDrive/XaioRP2040) folder.
 * **Corne36** Classic 3x5_3 Corne key layout. Based on [foostan/crkbd](https://github.com/foostan/crkbd)
    * [Case](/TestDrive/XaioRP2040/Case/Corne36)
    * [Firmware](/TestDrive/XaioRP2040/Firmware/quadsmack_testdrive_xiao2040_corne36_vial.uf2)
