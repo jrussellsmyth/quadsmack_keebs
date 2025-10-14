@@ -44,12 +44,23 @@ This is the most tedious part of the process, so get a beveage of your choice, t
 I recomend using the DiodeBender from this repository to pre-bend 5 diodes at a time. This makes the process a bit smoother, and also makes it easier to not get the orientation of the diodes wrong.
 
 Insert the diodes into the DiodeBender with the black stripe (Cathode/negative) down into the enclosed hole, bend the diode down to press the body into the larger rectangular hole in the jig, then run the other lead (Anode/positive) through the channel to the edge of the jig and bend down the side through the channel. Shape 5 diodes at a time, or all of them.
+![DiodeBender](Images/diodebending.jpg)
 
 For each keysocket, we will place one diode in the track in the bottom of the socket with the black stripe/straight lead through the hole in the bottom right corner of the socket, and the other lead through the hole at the end of the channel, and press the diode and lead into the impression in the bottom of the board.
+<div style="display: flex; gap: 16px;">
+    <img src="Images/diodeinsertion.jpg" alt="Diode Being Inserted" style="width: 48%; max-width: 500px;">
+    <img src="Images/diodeinserted.jpg" alt="Diode Inserted" style="width: 48%; max-width: 500px;">
+</div>
 
 Press the Diode Clamp into the top of the socket. There is a tab that goes into the channel at the south side of the socket, and a notch that faces to the right at the north side of the socket. This holds the diode in place while you weave the leads through.
+![DiodeClamp](Images/diodeclamp.jpg)
 
 From the back side of the board, thread the lead back through the other hole near the pin hole, leading back into the socket. You will need to work the wire to thread it all the way through.
+<div style="display: flex; gap: 16px;">
+    <img src="Images/diodebackside.jpg" alt="Diode Back" style="width: 32%; max-width: 500px;">
+    <img src="Images/dioderouteback.jpg" alt="Diode Through" style="width: 32%; max-width: 500px;">
+    <img src="Images/diodebacktofront.jpg" alt="Diode back to front" style="width: 32%; max-width: 500px;">
+</div>
 
 Insert the wire wrap fixture on the back of the board. This helps hold the diode in place as you wind the wire back down again.
 
