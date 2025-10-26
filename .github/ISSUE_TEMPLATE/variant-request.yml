@@ -1,0 +1,104 @@
+name: Variant Request
+description: Request a variation of an existing keyboard design for different MCU or key layout options
+title: "[VARIANT] "
+labels: ["variant"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting a variant! Please provide as much detail as possible to help us understand your needs.
+
+  - type: dropdown
+    id: base-board
+    attributes:
+      label: Base Board
+      description: Which existing keyboard design is this variant based on?
+      options:
+        - Talon38
+        - TestDrive Corne36
+        - TestDrive Fifi
+        - TestDrive KlorKonrad
+        - TestDrive KlorSagewerk
+        - MostlyPrinted KBD1
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: input
+    id: variant-name
+    attributes:
+      label: Variant Name
+      description: What would you like to call this variant?
+      placeholder: e.g., "Talon38 Elite-C Variant"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mcu-board
+    attributes:
+      label: MCU Development Board
+      description: Which microcontroller board should this variant support?
+      options:
+        - Pro Micro
+        - Elite-C
+        - RP2040 Zero
+        - Xiao RP2040
+        - Nice!Nano
+        - Supermini NRF52840
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: changes-requested
+    attributes:
+      label: Changes Requested
+      description: What modifications are needed? (Select all that apply)
+      options:
+        - label: Different MCU mounting/footprint
+        - label: Wireless/battery support
+        - label: Key layout changes (add/remove keys)
+        - label: Switch type compatibility (MX, Choc, etc.)
+        - label: Case modifications
+        - label: PCB/wiring routing changes
+        - label: Additional controls (encoders, joysticks, etc.)
+        - label: Other (specify in description)
+
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: Detailed Description
+      description: Please provide a detailed description of the changes you're requesting
+      placeholder: |
+        - Specific key layout changes needed
+        - MCU placement requirements
+        - Any additional components or features
+        - Use case or reasoning for the variant
+    validations:
+      required: true
+
+  - type: input
+    id: mcu-link
+    attributes:
+      label: MCU Board Link
+      description: Please provide a link to the specific MCU board you're requesting support for
+      placeholder: https://example.com/mcu-board
+
+  - type: textarea
+    id: additional-components
+    attributes:
+      label: Additional Components
+      description: Links to any additional components needed for this variant
+      placeholder: |
+        - Component 1: https://example.com/component1
+        - Component 2: https://example.com/component2
+
+  - type: checkboxes
+    id: acknowledgments
+    attributes:
+      label: Acknowledgments
+      options:
+        - label: I understand this is a request and not a guarantee of implementation
+          required: true
+        - label: I'm willing to help test the variant if it gets created
+        - label: I have the technical skills to provide feedback on the design

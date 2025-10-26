@@ -1,0 +1,127 @@
+name: Gallery Submission
+description: Submit your build to the Quadsmack Keebs Gallery
+title: "[GALLERY] "
+labels: ["gallery submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your build with the community! We'd love to feature it in our gallery.
+
+  - type: input
+    id: build-name
+    attributes:
+      label: Build Name
+      description: What would you like to call your build?
+      placeholder: e.g., "My Custom Talon38 Build"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: keyboard-model
+    attributes:
+      label: Keyboard Model
+      description: Which Quadsmack Keebs design did you build?
+      options:
+        - Talon38
+        - TestDrive Corne36
+        - TestDrive Fifi
+        - TestDrive KlorKonrad
+        - TestDrive KlorSagewerk
+        - MostlyPrinted KBD1
+        - Custom/Modified variant
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: images
+    attributes:
+      label: Images
+      description: Please provide links to images of your build or upload them directly
+      placeholder: |
+        You can:
+        - Drag and drop images directly into this text area
+        - Provide links to images hosted elsewhere
+        - Upload to an image hosting service and paste the links
+        
+        Please include multiple angles and close-ups of interesting details!
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Build Description
+      description: Tell us about your build
+      placeholder: |
+        - MCU used (Pro Micro, Elite-C, etc.)
+        - Switches and keycaps
+        - Any modifications made
+        - Print settings if applicable
+        - Assembly notes or challenges
+    validations:
+      required: true
+
+  - type: input
+    id: mcu-board
+    attributes:
+      label: MCU Board Used
+      description: Which microcontroller board did you use?
+      placeholder: e.g., Pro Micro, Elite-C, RP2040 Zero, Xiao RP2040
+
+  - type: input
+    id: switches
+    attributes:
+      label: Switches
+      description: What switches did you use?
+      placeholder: e.g., Cherry MX Blue, Gateron Yellow, Kailh Choc Red
+
+  - type: input
+    id: keycaps
+    attributes:
+      label: Keycaps
+      description: What keycaps did you use?
+      placeholder: e.g., XDA profile, Cherry profile, custom 3D printed
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comments & Notes
+      description: Any additional comments, tips, or things you learned during the build
+      placeholder: |
+        - What went well?
+        - What was challenging?
+        - Any tips for future builders?
+        - Modifications you made?
+
+  - type: textarea
+    id: build-discussion-links
+    attributes:
+      label: Build Discussion Links
+      description: Links to build logs, discussions, or social media posts about your build
+      placeholder: |
+        - Reddit post: https://reddit.com/r/...
+        - Discord discussion: https://discord.com/...
+        - Personal blog: https://myblog.com/...
+        - Twitter/X post: https://twitter.com/...
+
+  - type: checkboxes
+    id: permissions
+    attributes:
+      label: Permissions
+      options:
+        - label: I give permission to feature my build in the Quadsmack Keebs Gallery
+          required: true
+        - label: I give permission to use my images in promotional materials (with attribution)
+        - label: I'm okay with my Reddit/Discord username being credited with the build
+
+  - type: checkboxes
+    id: acknowledgments
+    attributes:
+      label: Acknowledgments
+      options:
+        - label: This is my own original build
+          required: true
+        - label: I have the rights to share these images
+          required: true
