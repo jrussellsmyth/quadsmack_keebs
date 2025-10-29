@@ -15,3 +15,9 @@ All submissions are welcome and help showcase the creativity of the community!
 
 ## u/Stdx1 TestDrive Klor Konrad
 ![u/Stdx1 TestDrive Klor Konrad](Images/Stdx1-KlorKonrad.png)
+
+## u/Stdx1 Talon38
+![u/Stdx1 Talon38](Images/stdx1-talon.jpeg) 
+
+## u/Stdx1 Talon and Klor, Family Shot!
+![u/Stgdx Talon and Klor](Images/stdx1-talon-klor.jpeg)
