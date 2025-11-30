@@ -1,12 +1,10 @@
 # Quadsmack's Talon 38
 The Talon 38 is an inexpensive, low profile, 38 key Split Ergonomic keybaord with Four thumbkeys and outer Pinky rows with 2 keys each.
 
-Several variants are published for different MCU board types as well as versions with exposed or internal devboards. Each type has its own subfolder in the [Case](./Case/) folder. Not all have been built by the author at this time.
+Several variants are published for different MCU board types. Each type has its own subfolder in the [Case](./Case/) folder. Not all have been built by the author at this time.
 * [WaveShare RP2040-Zero](./Case/RP2040Zero/)
 * ProMicro style boards
-* Wireless ProMicro (Nice!Nano, Supermini NRF52840) - replaces the USB jack with provision for power switch and battery
-  * [Internal/hidden MCU version](./Case/ProMicro-Wireless-Internal/)
-  * External/visible MCU version
+* [Wireless ProMicro](./Case/ProMicro-Wireless/) (Nice!Nano, Supermini NRF52840) - replaces the USB jack with provision for power switch and battery
 
 __Bill of Materials__
 * Printed parts - see the [Case](./Case/) folder. You will need one of each top and bottom left and right (four total), and two MCU covers for External MCU variants.
