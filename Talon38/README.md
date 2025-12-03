@@ -6,6 +6,7 @@ Several variants are published for different MCU board types as well as versions
     * ProMicro 
     * Wireless ProMicro (Nice!Nano, Supermini NRF52840) - replaces the USB jack with provision for power switch and battery
 
+
 Bill of Materials
 * Printed parts - see the [Case](./Case/) folder. You will need one of each top and bottom left and right (four total), and two MCU covers for External MCU variants.
   
@@ -20,6 +21,12 @@ Bill of Materials
 * 22AWG or smaller wire in assorted colors to wire it all together.
 * 38 Keyboard Switches and Keycaps of Choice
 
+# Firmware
+Binary firmware available in the [Firmware](./Firmware/) folder.
+* RP2040-zero [QMK-Vial](./Firmware/quadsmack_talon38_vial.uf2)
+* nrf52840 build [ZMK Studio](./Firmware/quadsmack_talon38_nrf52840_zmk_left_studio.uf2)
+
 # Hardware Sources
 [WaveShare RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) Development Boards
+
 [Durock](https://a.co/d/aWsOsjq) Hot Swap Sockets
