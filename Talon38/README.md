@@ -1,5 +1,7 @@
 # Quadsmack's Talon 38
 The Talon 38 is an inexpensive, low profile, 38 key Split Ergonomic keybaord with Four thumbkeys and outer Pinky rows with 2 keys each.
+![Talon Image](/Gallery/Images/PurpleTalonSideBySide.jpg)
+*Figure 1: Wireless Talon 38*
 
 Several variants are published for different MCU board types. Each type has its own subfolder in the [Case](./Case/) folder. Not all have been built by the author at this time.
 * [WaveShare RP2040-Zero](./Case/RP2040Zero/)
